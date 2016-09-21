@@ -1,0 +1,11 @@
+<figure contenteditable="false" class="is-media-selected" data-media-type="video" tabindex="0">
+    <div class="iframe-container post-media">
+        {% autoescape false %}
+        {{ media.get('html') }}
+        {% endautoescape %}
+        {#<iframe width="640" height="480" frameborder="0" src="{{ src }}"> </iframe>#}
+    </div>
+    <figcaption class="image-caption" data-placeholder="Type caption for embed (optional)" data-disable-double-return="true" data-disable-return="true">
+        <p><a href="{{ url }}" target="_blank">{{ media.get('title') }}</a></p>
+    </figcaption>
+</figure>

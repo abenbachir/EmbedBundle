@@ -1,0 +1,32 @@
+{
+    "name": "abenbachir/embed-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle of essense librairie",
+    "authors": [
+        {
+            "name": "Abderrahmane Benbachir",
+            "email": "anis.benbachir@gmail.com"
+        }
+    ],
+    "keywords":    [
+        "embed", "symfony", "symfony2"
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/framework-bundle": "~2.2",
+        "fg/essence": "~2.5"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": { "Embed\\EmbedBundle": "" }
+    },
+    "target-dir": "EmbedBundle",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}

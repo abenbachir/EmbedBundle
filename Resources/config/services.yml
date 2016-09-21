@@ -1,0 +1,5 @@
+
+services:
+    embed.essence:
+        class: Embed\Bundle\EmbedBundle\Essence\EssenceEmbedded
+        arguments: []
